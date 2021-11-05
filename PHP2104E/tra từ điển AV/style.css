@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+form{
+    color: brown;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
+table td{
+    border: 1px solid #333;
+    width: 200px;
+}
+table{
+   margin: auto;
+   padding-top: 50px;
+   text-align: center;
+}
