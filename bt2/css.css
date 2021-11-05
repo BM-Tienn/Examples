@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    width: 500px;
+    border: #333 solid 1px;
+    padding: 40px;
+    text-align: center;
+    height: 350px;
+}
+.surname , .email, .pass, .day, .where{
+    float: left;
+    text-align: left;
+}
+#surname , #name, #pass, #passtwo{
+    width: 225px;
+    height: 25px;
+    
+}
+#email{
+    width: 500px;
+    height: 25px;
+}
+.name, .passtwo{
+    float: right;
+    text-align: left;
+}
+#day, #where{
+    width: 120px;
+    height: 30px;
+}
+#day{
+    margin-left: 30px;
+}
+#where{
+    margin-left: 20px;
+}
+p{
+    color: red;
+}
+p b{ 
+    color: #333;
+}
+input , select{
+    margin: 5px 0px 5px 0px;
+}
+.gt{
+    width: 220px;
+    float: right;
+    text-align: left;
+    margin: 10px;
+}
+#submit{
+    width: 100px;
+    height:25px;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 168px;
+    background-color: aqua;
+}

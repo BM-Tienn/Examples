@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\css.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    
+        <form>
+        <h3>From đăng ký</h3>
+        <span class="surname"><p><b>Họ</b> *</p>
+            <input type="text" id="surname"  placeholder="Nhập họ"></span>
+        <span class="name"><p><b>Tên</b> *</p>
+            <input type="text" id="name"  placeholder="Nhập tên"></span>
+        <span class="email"><p><b>Email</b> *</p>
+            <input type="text" id="email"  placeholder="Nhập địa chỉ email"></span>
+        <span class="pass"><p><b>Mật khẩu (6-30 ký tự)</b> *</p>
+            <input type="password" id="pass"  placeholder="Mật khẩu"></span>
+        <span class="passtwo"><p><b>Nhập lại mật khẩu </b> *</p>
+            <input type="password" id="passtwo"  placeholder="Xác nhận mật khẩu"></span>
+        <span class="day"><p><b>Năm sinh </b> *
+            <select id="day" >
+                <option>-chọn-</option>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                </select></p>
+            </span>
+            <span class="gt"><p><b>Giới tính</b> *</p>
+                <input type="radio" name="gt" id="gt">Nam
+                <input type="radio" name="gt" id="gt">Nữ
+            </span> 
+        <span class="where"><p><b>Thành phố </b> *
+            <select id="where">
+                <option>-chọn-</option>
+                <option>Hà Nội</option>
+                <option>Hồ Chí Minh</option>
+                <option>Hải Phòng</option>
+                <option>Đà Nẵng</option>
+                <option>Cần Thơ</option>
+                <option>Quảng Ninh</option>
+                </select></p>
+            </span>
+             
+            <button type="submit" id="submit" onclick="signUp">Đăng ký</button>
+        </form>
+    
+</body>
+</html>
